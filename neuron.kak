@@ -15,6 +15,8 @@ define-command -docstring '
 	script="$(mktemp)"
 
 	cat << EOF > $script
+#!/usr/bin/env bash
+
 found_file="\$(neuron search $@)"
 
 if [ -n "\$found_file" ]; then
@@ -37,6 +39,8 @@ define-command -docstring '
 	script="$(mktemp)"
 
 	cat << EOF > $script
+#!/usr/bin/env bash
+
 found_file="\$(neuron search $@)"
 
 if [ -n "\$found_file" ]; then
