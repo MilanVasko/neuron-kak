@@ -1,5 +1,11 @@
 # neuron-kak
 
+**IMPORTANT NOTE**: This project, much like the `neuron` project itself, has
+been replaced by [`emanote-kak`](https://github.com/MilanVasko/emanote-kak).
+The good news is that if you don't want to switch from `neuron` to `emanote`,
+`emanote-kak` can help you with your `neuron` repository as well. Please check
+the link for more info.
+
 This repository contains useful commands for interacting with
 [neuron](https://neuron.zettel.page) command line tool.
 
